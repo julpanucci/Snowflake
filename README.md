@@ -49,7 +49,7 @@ let flurry = Snowflake(view: view, particles: [flake: redColor , snap:yellowColo
 Snowflake size is a scale from 0.0 to 1.0 (1.0 being the size of your original image) Changing the particlSize affects all snowflakes.
 ```swift
 //Snowflake that is half its original size
-snowflake.particleSize = 0.5
+snowflake.particleSizeRange = 0.5
 ```
 
 ## Example
