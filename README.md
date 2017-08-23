@@ -5,6 +5,29 @@
 [![License](https://img.shields.io/cocoapods/l/Snowflake.svg?style=flat)](http://cocoapods.org/pods/Snowflake)
 [![Platform](https://img.shields.io/cocoapods/p/Snowflake.svg?style=flat)](http://cocoapods.org/pods/Snowflake)
 
+## About
+Make any image fall like a snowflake! ❄️ Add Snowflake to any view layer for a cool animated affect.
+
+## Setup
+
+```swift
+view.backgroundColor = #colorLiteral(red: 0.1411764771, green: 0.3960784376, blue: 0.5647059083, alpha: 1)
+let flake = #imageLiteral(resourceName: "flake")
+
+let snowflake = Snowflake(view: view, particles: [flake: .white])
+self.view.layer.addSublayer(snowflake)
+```
+## Start
+```swift
+snowflake.start()
+```
+
+
+## Stop
+```swift
+snowflake.stop()
+```
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
