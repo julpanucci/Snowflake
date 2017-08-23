@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Snowflake_Example' do
+  pod 'Snowflake', :path => '../'
+
+  target 'Snowflake_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
