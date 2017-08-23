@@ -25,7 +25,12 @@ class ViewController: UIViewController {
         
         
         let flake = #imageLiteral(resourceName: "flake")
-        let flurry = Snowflake(view: view, particles: [flake: #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1), #imageLiteral(resourceName: "snap"): #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)])
+        let snap = #imageLiteral(resourceName: "snap")
+        
+        let redColor = #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1)
+        let yellowColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
+        
+        let flurry = Snowflake(view: view, particles: [flake: redColor , snap:yellowColor ])
         view.layer.addSublayer(flurry)
         flurry.start()
         
