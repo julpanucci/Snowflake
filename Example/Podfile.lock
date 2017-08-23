@@ -1,0 +1,16 @@
+PODS:
+  - Snowflake (0.1.0)
+
+DEPENDENCIES:
+  - Snowflake (from `../`)
+
+EXTERNAL SOURCES:
+  Snowflake:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Snowflake: 9cbf54f009d435ac57249c1f538a0588e4379e03
+
+PODFILE CHECKSUM: a63d6c68c1d20eb76125a27846dbed27eb71c8c5
+
+COCOAPODS: 1.2.0

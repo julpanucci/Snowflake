@@ -41,10 +41,10 @@
 		607FACE51AFB9204008FA782 /* Snowflake_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Snowflake_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		758C8EC0268BC91407289184 /* Snowflake.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Snowflake.podspec; path = ../Snowflake.podspec; sourceTree = "<group>"; };
+		758C8EC0268BC91407289184 /* Snowflake.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Snowflake.podspec; path = ../Snowflake.podspec; sourceTree = "<group>"; };
 		852746663FD851F71BAD5B51 /* Pods-Snowflake_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snowflake_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snowflake_Example/Pods-Snowflake_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C2C99F6F2B35AAB64B39DA9D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C7F86D29F81B5C6EB1AACC59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C2C99F6F2B35AAB64B39DA9D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C7F86D29F81B5C6EB1AACC59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CD2804FFE4AC19AA49408731 /* Pods-Snowflake_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snowflake_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snowflake_Example/Pods-Snowflake_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E1C82B525EB82F3F80C0D07A /* Pods_Snowflake_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snowflake_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = DGYJ3R2C9F;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = DGYJ3R2C9F;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -496,6 +498,7 @@
 			baseConfigurationReference = 852746663FD851F71BAD5B51 /* Pods-Snowflake_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DGYJ3R2C9F;
 				INFOPLIST_FILE = Snowflake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +513,7 @@
 			baseConfigurationReference = CD2804FFE4AC19AA49408731 /* Pods-Snowflake_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DGYJ3R2C9F;
 				INFOPLIST_FILE = Snowflake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27355327E4A233BF79D51A54 /* Pods-Snowflake_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = DGYJ3R2C9F;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 06CABB6FDE9008E1A96934FC /* Pods-Snowflake_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = DGYJ3R2C9F;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

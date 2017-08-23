@@ -7,18 +7,18 @@
 //
 
 import UIKit
+import Snowflake
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let flake = #imageLiteral(resourceName: "flake")
+        
+        let snowflake = Snowflake(view: view, particles: [flake: .white])
+        self.view.layer.addSublayer(snowflake)
+        snowflake.start()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
