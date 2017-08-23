@@ -50,7 +50,7 @@ public class Snowflake: CAEmitterLayer {
     
     //MARK: Cell Properties
     
-    var emissionRange = CGFloat(Double.pi)
+    private var emissionRange = CGFloat(Double.pi)
     var particleSize: CGFloat = 0.3 {
         didSet {
             emitterCells?.forEach {$0.scale = particleSize}
