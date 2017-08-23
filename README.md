@@ -44,6 +44,14 @@ let flurry = Snowflake(view: view, particles: [flake: redColor , snap:yellowColo
 
 ![Alt text](https://github.com/Julp04/Snowflake/blob/master/snowflake1.gif)
 
+
+## Change Flake Size
+Snowflake size is a scale from 0.0 to 1.0 (1.0 being the size of your original image) Changing the particlSize affects all snowflakes.
+```swift
+//Snowflake that is half its original size
+snowflake.particleSize = 0.5
+```
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
