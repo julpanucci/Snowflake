@@ -8,6 +8,9 @@
 ## About
 Make any image fall like a snowflake! ❄️ Add Snowflake to any view layer for a cool animated affect.
 
+
+![Alt text](https://github.com/Julp04/Snowflake/blob/master/snowflake0.gif)
+
 ## Setup
 
 ```swift
