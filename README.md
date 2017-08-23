@@ -31,6 +31,19 @@ snowflake.start()
 snowflake.stop()
 ```
 
+## Add multiple particles
+```swift
+let flake = #imageLiteral(resourceName: "flake")
+let snap = #imageLiteral(resourceName: "snap")
+
+let redColor = #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1)
+let yellowColor = #colorLiteral(red: 0.9607843161, green: 0.7058823705, blue: 0.200000003, alpha: 1)
+
+let flurry = Snowflake(view: view, particles: [flake: redColor , snap:yellowColor ])
+```
+
+![Alt text](https://github.com/Julp04/Snowflake/blob/master/snowflake1.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
